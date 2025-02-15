@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, } from './components';
 import StarWrapper from "./hoc/SectionWrapper";
 
+
 // import { inRect } from "maath/dist/declarations/src/random";
 
 const App = () => {

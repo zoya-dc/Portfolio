@@ -1,7 +1,11 @@
-
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+// / // Import the PDF file
+// import Resumes from "./Resumes"; // Import Resume component
+// import Resume from "../../public/Resume.pdf"; // Import the PDF file
+
+
 
 const Hero = () => {
     return (
@@ -9,6 +13,7 @@ const Hero = () => {
             <div
                 className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
             >
+
                 <div className='flex flex-col justify-center items-center mt-5'>
                     <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
                     <div className='w-1 sm:h-80 h-40 violet-gradient' />
@@ -18,14 +23,26 @@ const Hero = () => {
                     <h1 className={`${styles.heroHeadText} text-white`}>
                         Hi, I'm <span className='text-[#915EFF]'>Zoya</span>
                     </h1>
-                    <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+
+                    <p className={`${styles.heroSubText}  text-white-100`}>
                         I develop Web Design, user <br className='sm:block hidden' />
                         interfaces and web applications
                     </p>
+
+
                 </div>
+
             </div>
 
+
+
+
+
             <ComputersCanvas />
+
+            {/* pdf file  */}
+
+            <a href="./Resume.pdf" target="_blank" alt="Resume" rel="noopener noreferrr" className="bg-purple-700 p-4 font-medium rounded-3xl border-4 border-secondary mx-10 d-flex justify-left items-center">DOWNLOAD CV</a>
 
             {/* this is New Component which is define oval shape button inside dot  */}
             <div className='absolute xs:bottom-32 bottom-32 w-full flex justify-center items-center'>
@@ -45,7 +62,7 @@ const Hero = () => {
                     </div>
                 </a>
             </div>
-        </section>
+        </section >
     );
 };
 

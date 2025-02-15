@@ -91,7 +91,7 @@ const Navbar = () => {
 
 
                     {/* copy */}
-                    <div
+                    {/* <div
                         className={`${!toggle ? "hidden" : "flex"
                             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
                     >
@@ -110,7 +110,7 @@ const Navbar = () => {
                                 </li>
                             ))}
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </nav>

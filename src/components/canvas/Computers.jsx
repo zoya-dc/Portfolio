@@ -6,6 +6,7 @@ import CanvasLoader from "../Loader";
 import { extend } from '@react-three/fiber'
 extend({ OrbitControls, TransformControls })
 
+
 const Computers = ({ isMobile }) => {
     const computer = useGLTF("./desktop_pc/scene.gltf");
 
@@ -28,6 +29,7 @@ const Computers = ({ isMobile }) => {
                 scale={isMobile ? 0.7 : 0.75}
                 position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
                 rotation={[-0.01, -0.2, -0.1]}
+                style={{ marginTop: "15px" }}
             />
         </mesh>
     );
@@ -42,7 +44,7 @@ const ComputersCanvas = () => {
         // Add a listener for changes to the screen size
         const mediaQuery = window.matchMedia("(max-width: 500px)");
 
-        // Set the initial value of the `isMobile` state variable
+        // Set the initial value of the `isMobile` state variable 
         setIsMobile(mediaQuery.matches);
 
         // Define a callback function to handle changes to the media query
@@ -67,6 +69,7 @@ const ComputersCanvas = () => {
             camera={{ position: [20, 3, 5], fov: 25 }}
             //camera for 3D scene with specific angel, fov means Fill Of View
             gl={{ preserveDrawingBuffer: true }}
+
         >
             <Suspense fallback={<CanvasLoader />}>
                 {/* suspense is coming from React for loader */}
@@ -79,6 +82,7 @@ const ComputersCanvas = () => {
                 {/* it show Arrow with multiple colors , we can rotate */}
                 <Computers isMobile={isMobile} />
             </Suspense>
+
 
             <Preload all />
         </Canvas>

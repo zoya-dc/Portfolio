@@ -10,7 +10,7 @@ import {
     css,
     reactjs,
     vue,
-
+    // BikeRepair,
     tailwind,
     nodejs,
     nuxt,
@@ -26,7 +26,7 @@ import {
     // tesla,
     // shopify,
     carrent,
-    jobit,
+    // jobit,
     tripguide,
     threejs,
 } from "../assets";
@@ -40,10 +40,10 @@ export const navLinks = [
         id: "work",
         title: "Work",
     },
-    {
-        id: "experience",
-        title: "Experience"
-    },
+    // {
+    //     id: "experience",
+    //     title: "Experience"
+    // },
     {
         id: "contact",
         title: "Contact",
@@ -60,7 +60,7 @@ const services = [
         icon: mobile,
     },
     {
-        title: "React Native Developer",
+        title: "React Developer",
         icon: backend,
     },
     {
@@ -136,10 +136,10 @@ const experiences = [
         iconBg: "#383E56",
         date: "January 2024 - present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed and maintained responsive web applications using HTML5, CSS3, JavaScript (ES6+), and React.js",
+            "Collaborated with cross-functional teams to implement UI designs, integrate RESTful APIs, and deliver user-centric solutions.",
+            "Integrated RESTful APIs and GraphQL endpoints to fetch and display dynamic data.",
+            "Worked in an Agile environment, participating in daily stand-ups and sprint planning."
         ],
     },
     {
@@ -149,9 +149,8 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "Jun 2023 - Dec 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Optimized web performance by reducing load times by 30% through code splitting and lazy loading.",
+            "Implemented responsive design and cross-browser compatibility for a seamless user experience.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
@@ -162,113 +161,45 @@ const experiences = [
         iconBg: "#383E56",
         date: "Feb 2024 - Mar 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-
-];
-const education = [
-    {
-        title: "Bachlor Of Computer Application",
-        university: "Athrva College of Engineering",
-        icon: DiggajCoder,
-        iconBg: "#383E56",
-        date: "2007 - 2012",
-        // points: [
-        //     "Developing and maintaining web applications using React.js and other related technologies.",
-        //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        //     "Implementing responsive design and ensuring cross-browser compatibility.",
-        //     "Participating in code reviews and providing constructive feedback to other developers.",
-        // ],
-    },
-    {
-        title: "Intern Front End Developer",
-        company_name: "Diggaj Coder PVT LTD",
-        icon: DiggajCoder,
-        iconBg: "#E6DEDD",
-        date: "Jun 2023 - Dec 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Intern Web Developer",
-        company_name: "InternPe",
-        icon: InternPe,
-        iconBg: "#383E56",
-        date: "Feb 2024 - Mar 2024",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Completed an intensive internship program focused on frontend and backend web development, gaining hands-on experience in building responsive and dynamic web applications.",
+            "Learned and applied best practices in version control (Git), debugging, and web performance optimization.",
+            "Received a certificate of completion for demonstrating strong technical skills and delivering high-quality projects on time."
         ],
     },
 
 ];
 
-const testimonials = [
-    {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-];
+
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Diggaj Coder Website",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "'Diggaj-Coder',aligns with Diggaj Coder Private Limited, an educational technology startup offering full-stack development courses, the repository itself does not provide explicit details about its specific purpose or how it relates to Diggaj Coder's offerings.",
         tags: [
             {
-                name: "react",
+                name: "Vue 3",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Nuxt 3",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Vuetify",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: "src/assets/company/Designer-5 1.png",
+        source_code_link: "https://github.com/zoya-dc/Diggaj-Coder",
     },
     {
-        name: "Job IT",
+        name: "Bike Repair",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Appointment Scheduling: Allows users to select preferred dates and times for bike repairs,Service Tracking: Enables users to monitor the status of their bike repairs in real-time,Notifications: Sends alerts to users when their bike is ready for pickup.",
         tags: [
             {
-                name: "react",
+                name: "Vue 3/vite ",
                 color: "blue-text-gradient",
             },
             {
@@ -276,34 +207,55 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "vuetify",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: "src/assets/company/BikeRepair.png",
+        source_code_link: "https://github.com/zoya-dc/Bike-Repair",
     },
     {
-        name: "Trip Guide",
+        name: "Bike Repair",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Appointment Scheduling: Allows users to select preferred dates and times for bike repairs,Service Tracking: Enables users to monitor the status of their bike repairs in real-time,Notifications: Sends alerts to users when their bike is ready for pickup.",
         tags: [
             {
-                name: "nextjs",
+                name: "Vue 3/vite ",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "restapi",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "vuetify",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: "src/assets/company/BikeRepair.png",
+        source_code_link: "https://github.com/zoya-dc/Bike-Repair",
+    },
+    {
+        name: "HR Management Portal",
+        description:
+            "Designed and developed a comprehensive HR Management Portal to streamline employee and HR operations, Implemented features such as employee onboarding, leave management, attendance tracking, and payroll processing.",
+        tags: [
+            {
+                name: "Vue 3",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Vite",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Vuetify",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "src/assets/company/HrPortal.png",
+        source_code_link: "https://github.com/zoya-dc/DC-HR--Portal-Main",
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects, education };
+export { services, technologies, experiences, projects, };
