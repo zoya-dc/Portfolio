@@ -215,9 +215,9 @@ const projects = [
         source_code_link: "https://github.com/zoya-dc/Bike-Repair",
     },
     {
-        name: "Bike Repair",
+        name: "Whatsapp-Tool",
         description:
-            "Appointment Scheduling: Allows users to select preferred dates and times for bike repairs,Service Tracking: Enables users to monitor the status of their bike repairs in real-time,Notifications: Sends alerts to users when their bike is ready for pickup.",
+            "Developed a utility for automating WhatsApp tasks, such as bulk messaging or data extraction, using Python. Designed to enhance productivity by streamlining communication workflows and integrating with WhatsApp's platform.",
         tags: [
             {
                 name: "Vue 3/vite ",
@@ -232,8 +232,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "src/assets/company/BikeRepair.png",
-        source_code_link: "https://github.com/zoya-dc/Bike-Repair",
+        image: "src/assets/company/whatsapp.png",
+        source_code_link: "https://github.com/zoya-dc/Whatsapp-Tool",
     },
     {
         name: "HR Management Portal",
